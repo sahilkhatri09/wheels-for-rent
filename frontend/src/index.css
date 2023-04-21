@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Anuphan:wght@400;500&display=swap");
+body {
+  font-family: "Anton", sans-serif;
+  font-family: "Anuphan", sans-serif;
+}
+
+.navbar {
+  background-color: black;
+}
+.nav-link {
+  color: white;
+}
+.navbar-brand {
+  color: white;
+}
+.navbar-toggler {
+  color: white;
+}
+.navbar-toggler-icon {
+  color: white;
+}
+.smallimg {
+  height: 200px;
+  width: auto;
+  border-radius: 5px;
+}
+h1 {
+  font-size: 20px;
+}
+.btn {
+  background-color: black !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+.bs {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.bigimg {
+  height: 400px;
+  width: auto;
+}
+.modal-img {
+  height: 250px;
+  width: auto;
+}
+
+.sort-container {
+  justify-content: space-around;
+}
+
+input,
+select,
+.ant-picker {
+  box-shadow: none;
+  margin-top: 10px;
+  border: 2px solid black;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.ant-picker-input-active {
+  color: black !important;
+  text-decoration-color: black;
+}
+
+::placeholder {
+  color: black !important;
+  opacity: 1; /* Firefox */
+}
+
+span {
+  font-size: large;
+  font-weight: 500;
+}
+p {
+  font-size: large;
+  line-height: 150%;
+}
+.booking {
+  font-size: large;
+  line-height: 50% !important;
+}
+
+.form-check-input {
+  box-shadow: none !important;
+  margin-top: none !important;
+  border: 1.5px solid black;
+  width: 15px !important;
+  border-radius: 50%;
+}
