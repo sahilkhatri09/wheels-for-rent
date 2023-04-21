@@ -3,4 +3,5 @@
 /backend/node_modules
 
 /backend/config.env
+/.DS_Store
 /frontend/.DS_Store
